@@ -1,0 +1,60 @@
+<link rel="import" href="../core-selector/core-selector.html">
+<link rel="import" href="../paper-checkbox/paper-checkbox.html">
+
+<polymer-element name="topeka-multi-select">
+<template>
+
+  <style>
+
+    paper-checkbox {
+      padding: 14px 0;
+    }
+
+    paper-checkbox::shadow #checkboxLabel {
+      padding-left: 24px;
+    }
+    
+    paper-checkbox::shadow #ink[checked] {
+      color: #00bad2;
+    }
+    
+    paper-checkbox::shadow #checkbox.checked {
+      border-color: #00bad2;
+    }
+
+  </style>
+
+  {{selected}}
+
+  <div id="choices">
+
+    
+
+      <paper-checkbox label="asdas"></paper-checkbox><br>
+
+      <paper-checkbox label="asdasa"></paper-checkbox><br>
+
+      <paper-checkbox label="asdasss"></paper-checkbox><br>
+
+
+      <paper-checkbox label="asdasasa"></paper-checkbox><br>
+
+
+
+  </div>
+
+  <paper-item on-tap="{{selectDone}}"> Check</paper-item>
+
+  <core-selector target="{{$.choices}}" multi itemsSelector="paper-checkbox" selected="{{selected}}" selectedProperty="checked"></core-selector>
+
+</template>
+<script>
+
+  Polymer('topeka-multi-select', {
+    selectDone: function(){
+      console.log(this.selected);
+    }
+  });
+
+</script>
+</polymer-element>

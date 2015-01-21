@@ -1,0 +1,72 @@
+<style type="text/css">
+  
+  .card {
+      background-color: white;
+      padding: 20px 16px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      position: relative;
+    }
+
+  .wide.card {
+    margin:auto;
+      margin-top: 13%;
+      max-height: 580px;
+      max-width: 512px;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+      border-radius: 2px;
+    }
+
+  .header {
+      font-size: 1.5em;
+      color: #00BCD4;
+      font-weight: lighter;
+      margin-bottom: 15px;
+    }
+    .indent {
+      padding: 0 2px;
+      margin-bottom: 20px;
+    }
+
+    .bg{
+      background-color: #eee;
+      position: inherit;
+      height: 100%;
+      width: 100%;
+
+    }
+
+     #check {
+      width: 56px;
+      height: 56px;
+      background-color: #f5f5f5;
+      fill: black;
+      position: absolute;
+      right: 15px;
+      bottom: 15px;
+    }
+
+    paper-input {
+      max-width: 20em;
+      width: auto;
+    }
+
+</style>
+
+<div class="bg" fit dummy cross-fade>
+  <div class="card wide" layout vertical flex ng-enter="myFunc()">
+    
+    <div class="indent" layout vertical>
+      <div class="header">Sign In</div>
+      <paper-input label="Username" ng-model="username"></paper-input>
+     
+      <paper-input-decorator label="Password">
+            <input ng-model="password" type="password">
+      </paper-input-decorator>
+      
+      <div style="color:red;">{{error}}</div>
+    </div>
+
+    <paper-fab id="check" icon="check" ng-show="username != undefined && password != undefined" ng-click="login()"></paper-fab>
+  </div>
+</div>

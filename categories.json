@@ -1,0 +1,443 @@
+[
+    {
+        "name": "Communication",
+        "id": "communication",
+        "theme": "purple",
+        "quizzes": [
+            {
+                "type": "single-select-item",
+                "question": "The phenomenon by which light travels in an optical fibres is . [DCE 2001]",
+                "time": 30,
+                "id": 1,
+                "choices": [
+                    "Reflection",
+                    "Total internal reflection",
+                    "Refraction",
+                    "Transmission"
+                ],
+                "answer": "Total internal reflection",
+                "explanation": "In optical fibre, light travels inside it, due to total internal reflection."
+            },
+            {
+                "type": "single-select",
+                "question": "Basically, the product modulator is",
+                "time": 30,
+                "id": 2,
+                "choices": [
+                    "An amplifier",
+                    "A frequency separator",
+                    "A mixer",
+                    "A phase separator"
+                ],
+                "answer": "A mixer",
+                "explanation": "It mix weak signals with carrier signals."
+            },
+            {
+                "type": "four-quarter",
+                "question": "Laser beams are used to measure long distances because . [DCE 2002, 03]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "They are monochromatic",
+                    "They are coherent",
+                    "They are highly polarised",
+                    "They have high degree of parallelism"
+                ],
+                "answer": "They have high degree of parallelism",
+                "explanation": "Laser beams are perfectly parallel. So that they are very narrow and can travel a long distance without spreading. This is the feature of laser while they are monochromatic and coherent these are characteristics only."
+            },
+            {
+                "type": "four-quarter",
+                "question": "Audio signal cannot be transmitted because . [Kerala PMT 2005]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "The signal has more noise",
+                    "The transmitting antenna length is very small to design",
+                    "The signal cannot be amplified for distance communication",
+                    "The transmitting antenna length is very large and impracticable"
+                ],
+                "answer": "The transmitting antenna length is very large and impracticable",
+                "explanation": "Following are the problems which are faced while transmitting audio signals directly. &#133; (i) These signals are relatively of short range. &#133; (ii) If every body started transmitting these low frequency signals directly, mutual interference will render all of them ineffective. &#133; (iii) Size of antenna required for their efficient radiation would be larger i.e. about 75 km."
+            },
+            {
+                "type": "four-quarter",
+                "question": "The maximum distance upto which TV transmission from a TV tower of height h can be received is proportional to . [AIIMS 2003]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "h1/2",
+                    "h3/2",
+                    "h",
+                    "h2"
+                ],
+                "answer": "h1/2",
+                "explanation": "d = √(2hR) ⇒ d ∝ h1/2."
+            },
+            {
+                "type": "four-quarter",
+                "question": "In which of the following remote sensing technique is not used . [Kerala PMT 2005]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "Forest density",
+                    "Wetland mapping",
+                    "Pollution",
+                    "Medical treatment"
+                ],
+                "answer": "Medical treatment",
+                "explanation": "Remote sensing is the technique to collect information about an object in respect of its size, colour, nature, location, temperature etc. without physically touching it. There are some areas or location which are inaccessible. So to explore these areas or locations, a technique known as remote sensing is used. Remote sensing is done through a satellite."
+            },
+            {
+                "type": "four-quarter",
+                "question": "A laser beam is used for carrying out surgery because it . [AIIMS 2003]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "Is highly monochromatic",
+                    "Is highly directional",
+                    "Is highly coherent",
+                    "Can be sharply focussed"
+                ],
+                "answer": "Can be sharply focussed",
+                "explanation": "Surgery needs sharply focused beam of light and laser can be sharply focused."
+            },
+            {
+                "type": "four-quarter",
+                "question": "For television broadcasting, the frequency employed is normally . [AMU 2002]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "30-300 MHz",
+                    "30-300 KHz",
+                    "30-300 GHz",
+                    "30-300 Hz"
+                ],
+                "answer": "30-300 Hz",
+                "explanation": "VHF (Very High Frequency) band having frequency range 30 MHz to 300 MHz is typically used for TV and radar transmission."
+            },
+            {
+                "type": "four-quarter",
+                "question": "A step index fibre has a relative refractive index of 0.88%. What is the critical angle at the corecladding interface . [Manipal 2003]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "60°",
+                    "45°",
+                    "75°",
+                    "None of these"
+                ],
+                "answer": "None of these",
+                "explanation": "Here (n₁ - n₂) /n₁ = .88/100 ⇒ n₂ /n₁ = 0.9912  Critical angle θc = sin-1(n₂ /n₁) = sin-1(0.9912) = 84⁰24'."
+            },
+            {
+                "type": "four-quarter",
+                "question": "In short wave communication waves of which of the following frequencies will be reflected back by the ionospheric layer, having electron density 1011 per m3 . [AIIMS 2003]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "2 MHz",
+                    "12 MHz",
+                    "10 MHz",
+                    "18 MHz"
+                ],
+                "answer": "2 MHz",
+                "explanation": "By using fc ≈ (Nmax) 1/2 ⇒ fc ≈ 2 MHz"
+            }
+        ]
+    },
+    {
+        "name": "Atomic and Nuclear",
+        "id": "atom",
+        "theme": "yellow",
+        "quizzes": [
+            {
+                "type": "single-select-item",
+                "question": "The average life T and the decay constant of a radioactive nucleus are related as. [CPMT 1983]",
+                "time": 30,
+                "id": 1,
+                "choices": [
+                    "Tλ = 1",
+                    "T/λ = 1",
+                    "T = 0.693 / λ",
+                    "T = c / λ"
+                ],
+                "answer": "T/λ = 1",
+                "explanation": "Energy released while forming a nucleus is known as binding energy (by definition)."
+            },
+            {
+                "type": "single-select",
+                "question": "The frequency of 1st line of Balmer series in H₂ atom is v₀ The frequency of line emitted by singly ionised He atom is. [CPMT 2002]",
+                "time": 30,
+                "id": 2,
+                "choices": [
+                    "2v₀",
+                    "v₀ / 2",
+                    "4v₀",
+                    "v₀ / 4"
+                ],
+                "answer": "4v₀",
+                "explanation": "v ∝ Z² ⇒ vH₂ / vHe = (1/2)² = 1/4 ⇒ vHe = 4vH₂ = 4v₀."
+            },
+            {
+                "type": "four-quarter",
+                "question": "In the spectrum of hydrogen atom, the ratio of the longest wavelength in Lyman series to the longest wavelength in the Balmer series is. [UPSEAT 2004]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "5/27",
+                    "4/9",
+                    "1/93",
+                    "3/2"
+                ],
+                "answer": "5/27",
+                "explanation": "n Lyman series λ max = 4/(3 * R) In Balmer series λ max = (36/5 * R) So required ratio 5 / 27."
+            },
+            {
+                "type": "four-quarter",
+                "question": "A radioactive element emits 200 particles per second. After three hours 25 particles per second are emitted. The half life period of element will be",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "50 minutes",
+                    "70 minutes",
+                    "60 minutes",
+                    "80 minutes"
+                ],
+                "answer": "50 minutes",
+                "explanation": "For isotopes Z is same and A is different. Therefore the number of neutrons A - Z will also be different."
+            },
+            {
+                "type": "four-quarter",
+                "question": "When a hydrogen atom is raised from the ground state to an excited state. [CBSE PMT 1995; ]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "P.E. increases and K.E. decreases",
+                    "Both kinetic energy and potential energy increase",
+                    "P.E. decreases and K.E. increases",
+                    "Both K.E. and P.E. decrease"
+                ],
+                "answer": "P.E. increases and K.E. decreases",
+                "explanation": "P.E. ∝ - 1 / r and K.E. ∝ 1 / r As r increases so K.E. decreases but P.E. increases."
+            },
+            {
+                "type": "four-quarter",
+                "question": "The ratio of the kinetic energy to the total energy of an electron in a Bohr orbit is. [Roorkee 1995; B]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "- 1",
+                    "1 : 2",
+                    "2",
+                    "None of these"
+                ],
+                "answer": "- 1",
+                "explanation": "K.E. = – (T.E.)"
+            },
+            {
+                "type": "four-quarter",
+                "question": "Minimum energy required to takeout the only one electron from ground state of He+ is. [CPMT 2002]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "13.6 eV",
+                    "27.2 eV",
+                    "54.4 eV",
+                    "6.8 eV"
+                ],
+                "answer": "54.4 eV",
+                "explanation": "En = - 13.6 * Z²/n² ⇒ -13.6 * 2²/1² = -54.4 eV"
+            },
+            {
+                "type": "four-quarter",
+                "question": "The particles which can be added to the nucleus of an atom without changing its chemical properties are called. [NCERT 1979]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "Electrons",
+                    "Neutrons",
+                    "Protons",
+                    "None of the above"
+                ],
+                "answer": "Neutrons",
+                "explanation": "Neutrons are neutral particles."
+            },
+            {
+                "type": "four-quarter",
+                "question": "The wavelength of yellow line of sodium is 5896 Å. Its wave number will be. [MP PET 2001]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "50883 × 1010 per second",
+                    "17581 per cm",
+                    "16961 per cm",
+                    "50883 per cm"
+                ],
+                "answer": "16961 per cm",
+                "explanation": "Wave number v = 1 / λ = 1 / 5896 * 10-8 = 16961 per cm."
+            },
+            {
+                "type": "four-quarter",
+                "question": "Hydrogen atom excites energy level from fundamental state to n = 3. Number of spectrum lines according to Bohr, is. [CPMT 1997]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "4",
+                    "1",
+                    "3",
+                    "2"
+                ],
+                "answer": "3",
+                "explanation": "No. of lines NE = n(n - 1)/2 = 3(3 - 1)/ 2 = 3"
+            }
+        ]
+    },
+    {
+        "name": "Alternating current",
+        "id": "knowledge",
+        "theme": "green",
+        "quizzes": [
+            {
+                "type": "single-select-item",
+                "question": "An electric lamp is connected to 220 V, 50 Hz supply. Then the peak value of voltage is",
+                "time": 30,
+                "id": 1,
+                "choices": [
+                    "210 V",
+                    "311 V",
+                    "211 V",
+                    "320 V"
+                ],
+                "answer": "311 V",
+                "explanation": "peak value = rms value *(1.414) = 220*1.414 =311.08 so,ans = 311"
+            },
+            {
+                "type": "single-select",
+                "question": "The inductive reactance of an inductor of 1/π henry at 50 Hz frequency is",
+                "time": 30,
+                "id": 2,
+                "choices": [
+                    "50/π ohm",
+                    "100 ohm",
+                    "π/50 ohm",
+                    "50 ohm"
+                ],
+                "answer": "100 ohm",
+                "explanation": "Inductive reactance is an opposition to the change of current on an inductive element. Inductive reactance is proportional to the frequency and the inductance Xl=2*pi*f*l here f=50 l=1/pi so Xl=2*pi*50*(1/pi) =100."
+            },
+            {
+                "type": "four-quarter",
+                "question": "An ac supply gives 30 V r.m.s. which passes through a 10 Ω resistance. The power dissipated in it is",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "90 √2 w",
+                    "45 √2 w",
+                    "90 w",
+                    "45 w"
+                ],
+                "answer": "90 w",
+                "explanation": "given v=30v rms r= 10 omh p=30*30/10 p=900/10 p=90w."
+            },
+            {
+                "type": "four-quarter",
+                "question": "The potential difference V across the current i flowing through an instrument in an ac circuit of frequehcy f are given by v = 5 cos ωt volts and i = 2 sin ωt amperes (where ω = 2 πf). The power dissipated in. the instrument is. [CPMT 1977, 80; ]",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "Zero watt",
+                    "5 watt",
+                    "10 watt",
+                    "5 watt"
+                ],
+                "answer": "Zero watt",
+                "explanation": "given, v = 5 coswt volts i= 2sinwt Amperes p=vi p=5 coswt* 2 sinwt p= 5 sin(2wt) p=5 sin (4*pi*t) so p= 0 w."
+            },
+            {
+                "type": "four-quarter",
+                "question": "A LC circuit is in the state of resonance. If c = 0.1 μF and L = 0.25 henry. Neglecting ohmic resistance of circuit what is the frequency of oscillations",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "1007 Hz",
+                    "109 Hz",
+                    "100 Hz",
+                    "500 Hz"
+                ],
+                "answer": "1007 Hz",
+                "explanation": "at resonance XL=Xc (Inductive reactance = capacitive reactance) so (2*pi*f*L)=(1/ 2*pi*f*c)."
+            },
+            {
+                "type": "four-quarter",
+                "question": "If instantaneous current is given by i= 4 cos( ωt+ø ) amperes, then the r.m.s. value of current is",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "4 amperes",
+                    "4√2 amperes",
+                    "2√2 amperes",
+                    "Zero amperes"
+                ],
+                "answer": "2√2 amperes",
+                "explanation": "rms c=i/√2 i=4 so ans is 2√2."
+            },
+            {
+                "type": "four-quarter",
+                "question": "If a current i given by i0 sin (ωt-π/2) flows in an ac circuit across which an ac potential of E = E 0 sin ωt has been applied, then the power consumption P in the circuit will be",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "p = E0 i0 /√2",
+                    "p = E0 i0 / 2",
+                    "p = √2 E0 i0",
+                    "p = 0"
+                ],
+                "answer": "p = 0",
+                "explanation": "i = i0 sin (ωt-π/2) E = E0 sin ωt P = E*i P = i0 sin (ωt-π/2) * E0 sin ωt P = i0 E0 {2*sin (ωt-π/2) * sin ωt} / 2 P = i0 E0 {cos(ωt - ωt + π/2)} / 2 P = i0 E0 {cos(π/2)} / 2 P = 0."
+            },
+            {
+                "type": "four-quarter",
+                "question": "When V = 100 sin ωt is applied across a series (RLC) circuit at resonance the current in resistance (R = 100Ω ) is i= io sin ωt, then power dissipation in circuit is",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "50 W",
+                    "25 W",
+                    "100 W",
+                    "Can't be calculated"
+                ],
+                "answer": "50 W",
+                "explanation": "power in Resonance circuit = Irms.Vrms.Cos(Thete) =(1/(root2)).(100/(root2)).cos(0) = 50."
+            },
+            {
+                "type": "four-quarter",
+                "question": "In the adjoining ac circuit the voltmeter whose reading will be zero at resonance is.",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "V1",
+                    "V3",
+                    "V2",
+                    "V4"
+                ],
+                "answer": "V4",
+                "explanation": "as in resonance xc=xl, therefore potential difference between them is zero."
+            },
+            {
+                "type": "four-quarter",
+                "question": "A resistor R, an inductor L, a capacitor C and voltmeters V1, V2 and V3 are connected to an oscillator in the circuit as shown in the adjoining diagram. When the frequency of the oscillator is increased, then at resonant frequency the reading of voltmeter V3 is equal to .",
+                "time": 30,
+                "id": 3,
+                "choices": [
+                    "That of voltmeter V1",
+                    "Both of the voltmeters V1 and V2",
+                    "That of voltmeter V2 ",
+                    "None of these"
+                ],
+                "answer": "That of voltmeter V1 ",
+                "explanation": "because at resonance Xc = XL therefore potential difference between them is zero Due to voltmeter V3 is equal to V1"
+            }
+        ]
+    }
+]
